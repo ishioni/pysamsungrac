@@ -14,8 +14,8 @@ pip install pysamsungrac
 
 ## Example usage
 ```python
-rac = SamsungRac(SamsungRacConnection(address, token))
-rac.set_target_temperature("21")
+rac = SamsungRac(address, token)
+rac.set_target_temperature(21)
 ```
 
 You can also look at the included samsungrac.py script in bin
